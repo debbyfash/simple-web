@@ -1,0 +1,35 @@
+1. What is the difference between an inline element and a block element?
+
+An inline element is an element used as a style attribute in HTML element while
+A block-level element always starts on a new line and takes up the full width available 
+(stretches out to the left and right as far as it can).
+
+
+2. What happens when an element is positioned absolutely?
+
+When an element is positioned absolutely that means it's computed position value is fixed.
+
+3. How do I make an element take up only the amount of space it needs but 
+also have the ability to give it a width?
+
+By setting these to 0 in your stylesheet, you can take away the default space
+that gets put in after these elements. Negative margins allows you to overlap things too, 
+but is not the best method to do so because of browser 
+inconsistencies and what have you — use positioning to achieve all that.
+
+
+4. Name 4 elements that are diplay block by default, 5 elements that are display inline by default and 
+1 element that is display inline-block by default 5. In your own words, 
+explain the box model. What is the fix for the box mod
+
+Block display:
+a. <div>
+b. <span>
+c. <section>
+d. <ul>
+
+Inline dispay:
+a.<a>
+b.<p>
+c.<h>
+d.<b>
